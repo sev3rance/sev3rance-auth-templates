@@ -18,7 +18,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     license="GPLv3",
-    description="Terra Nanotech Template Overrides for Alliance Auth",
+    description="Sev3rance Template Overrides for Alliance Auth",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/sev3rance/sev3rance-auth-templates",
