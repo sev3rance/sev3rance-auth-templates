@@ -20,9 +20,9 @@
         <link href="{% static 'css/auth-base.css' %}" type="text/css" rel="stylesheet">
 
         <link rel="stylesheet" href="{% static 'sev3rance_auth_templates/css/sev3rance.min.css' %}" type="text/css">
-        <link rel="stylesheet" href="{% static 'sev3rance_auth_templates/css/community-apps-fixes.min.css' %}" type="text/css">
 
         {% block extra_css %}{% endblock extra_css %}
+        <link rel="stylesheet" href="{% static 'sev3rance_auth_templates/css/community-apps-fixes.min.css' %}" type="text/css">
     </head>
 
     <body class="{% if NIGHT_MODE %}template-dark-mode{% else %}template-light-mode{% endif %}">
