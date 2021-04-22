@@ -1,8 +1,6 @@
 """
-tnnt template settings
+sev3rance template settings
 """
-
-from django.conf import settings
 
 
 def severance_settings(request):
