@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.0.2] - 2021-04-23
+
+### Added
+
+- Eve time to top menu bar
+
+
 ## [1.0.1] - 2021-04-22
 
 ### Fixed
