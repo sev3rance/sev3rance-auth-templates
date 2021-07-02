@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.0.5] - 2021-07-02
+
+### Changed
+
+- base template for new message layout
+
+
 ## [1.0.4] - 2021-06-29
 
 ### Added
