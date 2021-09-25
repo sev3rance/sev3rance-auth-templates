@@ -13,10 +13,6 @@ In `local.py` right after `INSTALLED_APPS`:
 ```python
 # -7- Auth Templates - https://github.com/sev3rance/sev3rance-auth-templates
 INSTALLED_APPS.insert(0, "sev3rance_auth_templates")
-
-TEMPLATES[0]["OPTIONS"]["context_processors"].append(
-    "sev3rance_auth_templates.context_processors.severance_settings"
-)
 ```
 
 **Important**
@@ -29,11 +25,6 @@ entry, like this:
 INSTALLED_APPS.insert(0, "aagdpr")
 AVOID_CDN = True
 
-
 # -7- Auth Templates - https://github.com/sev3rance/sev3rance-auth-templates
 INSTALLED_APPS.insert(0, "sev3rance_auth_templates")
-
-TEMPLATES[0]["OPTIONS"]["context_processors"].append(
-    "sev3rance_auth_templates.context_processors.severance_settings"
-)
 ```
