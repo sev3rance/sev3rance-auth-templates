@@ -8,9 +8,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.0] - Unreleased
 
+### Added
+
+- Basic test suite
+
 ### Changed
 
 - AA templates for AA 2.9.x
+
+### Removed
+
+- Unused files and code
 
 
 ## [1.0.5] - 2021-07-02
