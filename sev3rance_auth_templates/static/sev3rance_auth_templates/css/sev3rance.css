@@ -6,6 +6,7 @@
     }
 
     .navbar-nav > li.top-user-menu.with-main-character > .dropdown-menu {
+        min-width: 225px;
         padding-top: 0.5rem;
     }
 
