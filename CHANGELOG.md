@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.1.1] - 2021-10-19
+
+### Changes
+
+- Use SITE_NAME variable instead of a static site name
+
+
 ## [1.1.0] - 2021-10-17
 
 ### Added
