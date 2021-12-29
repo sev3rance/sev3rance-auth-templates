@@ -1,7 +1,10 @@
+# Standard Library
 import os
 
+# Third Party
 from setuptools import find_packages, setup
 
+# AA Templates: Sev3rance
 from sev3rance_auth_templates import __version__
 
 # read the contents of your README file
