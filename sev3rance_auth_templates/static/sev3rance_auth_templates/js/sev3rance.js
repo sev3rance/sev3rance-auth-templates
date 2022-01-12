@@ -6,22 +6,22 @@ $(document).ready(function () {
      * » add target="_blank"
      * » add rel="noopener noreferer"
      */
-    let externalLinks = function () {
+    const externalLinks = function () {
         // let internalHost = location.hostname.replace(/ /g, '').split(',');
-        let internalHost = [location.hostname];
-        let protocolPattern = /^https?:\/\//i;
+        const internalHost = [location.hostname];
+        const protocolPattern = /^https?:\/\//i;
 
         /**
          * walk through all links on the current page
          */
         $('a').each(function () {
-            let href = $(this).attr('href');
+            const href = $(this).attr('href');
 
             /**
              * check if its a http link
              */
             if (protocolPattern.test(href)) {
-                let hrefHostname = $(new URL(href)).attr('hostname');
+                const hrefHostname = $(new URL(href)).attr('hostname');
 
                 if ($.inArray(hrefHostname, internalHost) === -1) {
                     $(this).attr('target', '_blank');
@@ -34,7 +34,7 @@ $(document).ready(function () {
     /**
      * functions that need to be executed on load
      */
-    let init = function () {
+    const init = function () {
         externalLinks();
     };
 
