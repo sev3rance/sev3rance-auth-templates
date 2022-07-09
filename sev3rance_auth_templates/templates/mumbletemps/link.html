@@ -19,7 +19,7 @@
         {% include 'bundles/bootstrap-css.html' %}
         {% include 'bundles/fontawesome.html' %}
 
-        <link href="{% static 'css/auth-base.css' %}" type="text/css" rel="stylesheet">
+        <link href="{% static 'allianceauth/css/auth-base.css' %}" type="text/css" rel="stylesheet">
 
         <link rel="stylesheet" href="{% static 'sev3rance_auth_templates/css/sev3rance.min.css' %}" type="text/css">
 
@@ -68,8 +68,8 @@
 
         {% include 'bundles/bootstrap-js.html' %}
         {% include 'bundles/moment-js.html' with locale=True %}
+        {% include 'bundles/timers-js.html' %}
 
-        <script src="{% static 'js/timers.js' %}"></script>
         <script type="text/javascript">
             let locale = "{{ LANGUAGE_CODE }}";
             let timers = [
