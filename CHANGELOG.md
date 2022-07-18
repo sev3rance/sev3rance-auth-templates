@@ -11,7 +11,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 - HTML and JS syntax
-- Fixed templates for `mumbletemps`
+- Templates for `mumbletemps`
+
+### Added
+
+- evetime-js to `mumbletemps` public-facing template
 
 ### Changed
 
