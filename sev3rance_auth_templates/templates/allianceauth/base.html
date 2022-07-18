@@ -17,7 +17,7 @@
         {% include 'bundles/bootstrap-css.html' %}
         {% include 'bundles/fontawesome.html' %}
 
-        <link href="{% static 'css/auth-base.css' %}" type="text/css" rel="stylesheet">
+        <link href="{% static 'allianceauth/css/auth-base.css' %}" type="text/css" rel="stylesheet">
 
         <link rel="stylesheet" href="{% static 'sev3rance_auth_templates/css/sev3rance.min.css' %}" type="text/css">
 
@@ -54,8 +54,8 @@
                 userNotificationsCountViewUrl: "{% url 'notifications:user_notifications_count' request.user.pk %}"
             };
         </script>
-        <script src="{% static 'js/refresh_notifications.js' %}"></script>
-        <script src="{% static 'js/eve-time.js' %}"></script>
+        {% include 'bundles/refresh-notifications-js.html' %}
+        {% include 'bundles/evetime-js.html' %}
         <script src="{% static 'sev3rance_auth_templates/js/sev3rance.min.js' %}"></script>
 
         {% block extra_javascript %}
