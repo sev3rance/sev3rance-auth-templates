@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [In development] - Unreleased
 
+### Fixed
+
+- HTML and JS syntax
+
 ### Changed
 
 - Static files to their AA3 versions
