@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 - HTML and JS syntax
+- Fixed templates for `mumbletemps`
 
 ### Changed
 
