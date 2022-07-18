@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [In development] - Unreleased
 
+### Fixed
+
+- HTML and JS syntax
+- Templates for `mumbletemps`
+
+### Added
+
+- evetime-js to `mumbletemps` public-facing template
+
+### Changed
+
+- Static files to their AA3 versions
+- Minimum requirements
+  - Alliance Auth v2.15.0
+
 
 ## [1.4.0] - 2022-03-03
 

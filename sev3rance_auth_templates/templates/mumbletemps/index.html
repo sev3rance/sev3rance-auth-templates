@@ -131,10 +131,9 @@
 {% block extra_javascript %}
     {% include 'bundles/clipboard-js.html' %}
     {% include 'bundles/moment-js.html' with locale=True %}
+    {% include 'bundles/timers-js.html' %}
 
-    <script src="{% static 'js/timers.js' %}"></script>
-
-    <script>
+    <script type="text/javascript">
         var clipboard = new ClipboardJS('#clipboard-new');
 
         {% for lnk in tl_list %}
