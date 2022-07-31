@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [In development] - Unreleased
 
+
+## [1.5.0] - 2022-07-31
+
 ### Fixed
 
 - HTML and JS syntax
