@@ -1,5 +1,6 @@
 @media all {
-    .img-circle, img {
+    .img-circle,
+    img {
         border-radius: 6px;
         height: auto;
         max-width: 100%;
@@ -19,7 +20,7 @@
 ------------------------------------------------------------------------------------- */
 @media all {
     .nav-item-eve-time .eve-time-wrapper {
-        color: rgb(255, 255, 255);
+        color: rgb(255 255 255);
         display: block;
         line-height: 21px;
         padding: 10px 15px;
