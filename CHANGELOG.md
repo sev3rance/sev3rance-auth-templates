@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [In development] - Unreleased
 
 
+## [1.6.0] - 2023-04-20
+
+### Changed
+
+- Templates to match `fittings>=2.0.0`
+
+
 ## [1.5.0] - 2022-07-31
 
 ### Fixed
