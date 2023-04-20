@@ -56,11 +56,13 @@
                                 <tr>
                                     <td>
                                         <a href="{% url 'fittings:view_fit' fit.pk %}" class="text-decoration-none d-inline-block">
-                                            <img class="img-rounded" src="{{ fit.ship_type_type_id|type_render_url:32 }}" title="{{ fit.ship_type.type_name }}">
+                                            <img class="img-rounded" src="{{ fit.ship_type_type_id|type_render_url:32 }}" title="{{ fit.ship_type.type_name }}" alt="{{ fit.ship_type.type_name }}">
                                         </a>
                                         {{ fit.ship_type.type_name }}
                                     </td>
-                                    <td><a href="{% url 'fittings:view_fit' fit.pk %}">{{ fit.name }}</a></td>
+                                    <td>
+                                        <a href="{% url 'fittings:view_fit' fit.pk %}">{{ fit.name }}</a>
+                                    </td>
                                     <td>
                                         {% for cat in cats|get_item:fit.pk %}
                                         <span class="label" style="background-color: {{ cat.color }}"><a href="{% url 'fittings:view_category' cat.pk %}" class="nostyle">{{ cat.name }}</a></span>
@@ -80,17 +82,17 @@
 {% block extra_javascript %}
     {% include 'bundles/datatables-js.html' %}
 
-    <script type="application/javascript">
+    <script>
         $(document).ready(function() {
             {% if fits %}
-                $('#fitTable').DataTable();
+                $('#fitTable').DataTable({
+                    language: {
+                        url: '{{ STATIC_URL }}/sev3rance_auth_templates/libs/DataTables-Plugins/1.13.4/i18n/{{ LANGUAGE_CODE }}.json'
+                    },
+                });
             {% endif %}
 
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
-{% endblock %}
-
-{% block extra_script %}
-
 {% endblock %}

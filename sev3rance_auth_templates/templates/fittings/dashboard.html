@@ -55,7 +55,7 @@
                                 <tr>
                                     <td>
                                         <a href="{% url 'fittings:view_doctrine' doc.pk %}">
-                                            <img src="{{ doc.icon_url }}" class="img-rounded" style="display: block; margin: auto;"/>
+                                            <img src="{{ doc.icon_url }}" class="img-rounded" style="display: block; margin: auto;" alt="{{ doc.name }}">
                                         </a>
                                     </td>
                                     <td> <a href="{% url 'fittings:view_doctrine' doc.pk %}">{{ doc.name }}</a> </td>
@@ -64,10 +64,12 @@
                                             <span class="label" style="background-color: {{ cat.color }}"><a href="{% url 'fittings:view_category' cat.pk %}" class="nostyle">{{ cat.name }}</a></span>
                                         {% endfor %}
                                     </td>
-                                    <td> {{ doc.description|linebreaks|urlize }} </td>
+                                    <td>
+                                        {{ doc.description|linebreaks|urlize }}
+                                    </td>
                                     <td>
                                         {% for fitting in doc_dict|get_item:doc.pk %}
-                                            <img src="{{ fitting.ship_type_type_id|type_render_url:32 }}" class="img-rounded" data-toggle="tooltip" data-placement="bottom" title="{{ fitting.ship_type.type_name }}"/>
+                                            <img src="{{ fitting.ship_type_type_id|type_render_url:32 }}" class="img-rounded" data-toggle="tooltip" data-placement="bottom" title="{{ fitting.ship_type.name }}" alt="{{ fitting.ship_type.name }}">
                                         {% endfor %}
                                     </td>
                                 </tr>
@@ -83,19 +85,18 @@
 {% block extra_javascript %}
     {% include 'bundles/datatables-js.html' %}
 
-    <script type="application/javascript">
+    <script>
         $(document).ready(function(){
             {% if docs %}
                 $('#docTable').DataTable({
-                    "order": [[ 1, "asc" ]],
+                    language: {
+                        url: '{{ STATIC_URL }}/sev3rance_auth_templates/libs/DataTables-Plugins/1.13.4/i18n/{{ LANGUAGE_CODE }}.json'
+                    },
+                    order: [[ 1, "asc" ]],
                 });
             {% endif %}
 
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
-{% endblock %}
-
-{% block extra_script %}
-
 {% endblock %}
