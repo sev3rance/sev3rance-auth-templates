@@ -38,7 +38,7 @@
                                 <div class="col-sm-10">
                                     <div class="form-group">
                                         <label for="name">{% translate "Category Name" %}</label>
-                                        <input type="text" class="form-control" name="name" id="name" required/>
+                                        <input type="text" class="form-control" name="name" id="name" required>
                                     </div>
                                 </div>
 
@@ -46,7 +46,7 @@
                                     <div class="form-group">
                                         <label for="color">{% translate "Category Color" %}</label>
                                         <div class="form-control col-sm-1" id="color-wrapper" style="padding:0 !important;">
-                                            <input type="color" name="color" id="color" value="#39CCCC" required/>
+                                            <input type="color" name="color" id="color" value="#39CCCC" required>
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
 
-                            <br />
+                            <br>
                             <button class="btn btn-primary btn-block" type="submit">{% translate "Submit" %}</button>
                         </form>
                     </div>
@@ -107,22 +107,37 @@
 {% block extra_javascript %}
     <script type="application/javascript" src="{% static 'sev3rance_auth_templates/libs/slim-select/1.26.0/dist/slimselect.min.js' %}"></script>
 
-    <script type="application/javascript">
-        let color_picker = document.getElementById("color");
-        let color_picker_wrapper = document.getElementById("color-wrapper");
+    <script>
+        const color_picker = document.getElementById('color');
+        const color_picker_wrapper = document.getElementById('color-wrapper');
 
-        color_picker.onchange = function () {
+        color_picker.onchange = function() {
             color_picker_wrapper.style.backgroundColor = color_picker.value;
         }
-
         color_picker_wrapper.style.backgroundColor = color_picker.value;
 
         new SlimSelect({
             select: "#groupSelect",
-            hideSelectedOption: true
+            hideSelectedOption: true,
+            placeholder: '{% translate "Select Value" %}',
+            searchText: '{% translate "No Results" %}',
+            searchPlaceholder: '{% translate "Search" %}'
         });
 
-        new SlimSelect({select: "#fitSelect", hideSelectedOption: true});
-        new SlimSelect({select: "#docSelect", hideSelectedOption: true});
+        new SlimSelect({
+            select: "#fitSelect",
+            hideSelectedOption: true,
+            placeholder: '{% translate "Select Value" %}',
+            searchText: '{% translate "No Results" %}',
+            searchPlaceholder: '{% translate "Search" %}'
+        });
+
+        new SlimSelect({
+            select: "#docSelect",
+            hideSelectedOption: true,
+            placeholder: '{% translate "Select Value" %}',
+            searchText: '{% translate "No Results" %}',
+            searchPlaceholder: '{% translate "Search" %}'
+        });
     </script>
 {% endblock %}
