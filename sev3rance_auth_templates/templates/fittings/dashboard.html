@@ -37,7 +37,7 @@
 
             <div class="panel-body">
                 {% if not docs %}
-                    <div class="alert alert-warning" style="text-align: center">{% translate "No Doctrines Found" %} </div>
+                    <div class="alert alert-warning text-center">{% translate "No Doctrines Found" %}</div>
                 {% else %}
                     <table class="table table-striped table-hover dataTable" id="docTable">
                         <thead>
@@ -61,7 +61,7 @@
                                     <td> <a href="{% url 'fittings:view_doctrine' doc.pk %}">{{ doc.name }}</a> </td>
                                     <td>
                                         {% for cat in doc.category.all %}
-                                            <span class="label" style="background-color: {{ cat.color }}"><a href="{% url 'fittings:view_category' cat.pk %}" class="nostyle">{{ cat.name }}</a></span>
+                                            <span class="label" style="background-color: {{ cat.color }};"><a href="{% url 'fittings:view_category' cat.pk %}" class="nostyle">{{ cat.name }}</a></span>
                                         {% endfor %}
                                     </td>
                                     <td>

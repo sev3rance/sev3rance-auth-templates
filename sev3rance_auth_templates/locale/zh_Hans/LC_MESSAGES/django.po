@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-20 19:29+0200\n"
+"POT-Creation-Date: 2023-04-20 21:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: templates/allianceauth/top-menu.html:10 templates/fittings/base.html:43
+#: templates/allianceauth/top-menu.html:10 templates/fittings/base.html:44
 msgid "Toggle navigation"
 msgstr ""
 
@@ -26,19 +26,19 @@ msgstr ""
 msgid "Add Doctrine"
 msgstr ""
 
-#: templates/fittings/add_doctrine.html:31 templates/fittings/add_fit.html:18
+#: templates/fittings/add_doctrine.html:31 templates/fittings/add_fit.html:19
 #: templates/fittings/dashboard.html:19
-#: templates/fittings/edit_doctrine.html:29 templates/fittings/edit_fit.html:16
+#: templates/fittings/edit_doctrine.html:29 templates/fittings/edit_fit.html:17
 #: templates/fittings/view_all_categories.html:17
-#: templates/fittings/view_all_fits.html:19
+#: templates/fittings/view_all_fits.html:20
 msgid "Oh No!"
 msgstr ""
 
-#: templates/fittings/add_doctrine.html:33 templates/fittings/add_fit.html:20
+#: templates/fittings/add_doctrine.html:33 templates/fittings/add_fit.html:21
 #: templates/fittings/dashboard.html:21
-#: templates/fittings/edit_doctrine.html:31 templates/fittings/edit_fit.html:18
+#: templates/fittings/edit_doctrine.html:31 templates/fittings/edit_fit.html:19
 #: templates/fittings/view_all_categories.html:19
-#: templates/fittings/view_all_fits.html:21
+#: templates/fittings/view_all_fits.html:22
 msgid "Success!"
 msgstr ""
 
@@ -76,10 +76,10 @@ msgid ""
 "a fitting that uses that ship type and try again."
 msgstr ""
 
-#: templates/fittings/add_doctrine.html:112 templates/fittings/add_fit.html:63
+#: templates/fittings/add_doctrine.html:112 templates/fittings/add_fit.html:64
 #: templates/fittings/create_category.html:98
 #: templates/fittings/edit_category.html:99
-#: templates/fittings/edit_doctrine.html:99 templates/fittings/edit_fit.html:55
+#: templates/fittings/edit_doctrine.html:99 templates/fittings/edit_fit.html:56
 msgid "Submit"
 msgstr ""
 
@@ -91,12 +91,12 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: templates/fittings/add_fit.html:6 templates/fittings/add_fit.html:32
+#: templates/fittings/add_fit.html:7 templates/fittings/add_fit.html:33
 msgid "Add Fitting"
 msgstr ""
 
-#: templates/fittings/add_fit.html:43 templates/fittings/dashboard.html:48
-#: templates/fittings/edit_fit.html:38 templates/fittings/view_all_fits.html:50
+#: templates/fittings/add_fit.html:44 templates/fittings/dashboard.html:48
+#: templates/fittings/edit_fit.html:39 templates/fittings/view_all_fits.html:51
 #: templates/fittings/view_category.html:88
 #: templates/fittings/view_category.html:141
 #: templates/fittings/view_doctrine.html:64
@@ -104,33 +104,33 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: templates/fittings/add_fit.html:54 templates/fittings/base.html:74
-#: templates/fittings/edit_fit.html:47 templates/fittings/view_fit.html:135
+#: templates/fittings/add_fit.html:55 templates/fittings/base.html:75
+#: templates/fittings/edit_fit.html:48 templates/fittings/view_fit.html:135
 msgid "Fitting"
 msgstr ""
 
-#: templates/fittings/base.html:49
+#: templates/fittings/base.html:50
 msgid "Fittings and Doctrines"
 msgstr ""
 
-#: templates/fittings/base.html:55
+#: templates/fittings/base.html:56
 msgid "View All Doctrines"
 msgstr ""
 
-#: templates/fittings/base.html:59 templates/fittings/view_all_fits.html:7
+#: templates/fittings/base.html:60 templates/fittings/view_all_fits.html:8
 msgid "View All Fittings"
 msgstr ""
 
-#: templates/fittings/base.html:63
+#: templates/fittings/base.html:64
 #: templates/fittings/view_all_categories.html:7
 msgid "View All Categories"
 msgstr ""
 
-#: templates/fittings/base.html:75 templates/fittings/view_doctrine.html:7
+#: templates/fittings/base.html:76 templates/fittings/view_doctrine.html:7
 msgid "Doctrine"
 msgstr ""
 
-#: templates/fittings/base.html:76 templates/fittings/view_category.html:37
+#: templates/fittings/base.html:77 templates/fittings/view_category.html:37
 #: templates/fittings/view_doctrine.html:104
 msgid "Category"
 msgstr ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: templates/fittings/dashboard.html:46
 #: templates/fittings/view_all_categories.html:43
-#: templates/fittings/view_all_fits.html:48
+#: templates/fittings/view_all_fits.html:49
 #: templates/fittings/view_category.html:53
 #: templates/fittings/view_category.html:86
 #: templates/fittings/view_category.html:139
@@ -212,7 +212,7 @@ msgid "Name"
 msgstr ""
 
 #: templates/fittings/dashboard.html:47
-#: templates/fittings/view_all_fits.html:49
+#: templates/fittings/view_all_fits.html:50
 #: templates/fittings/view_category.html:87
 #: templates/fittings/view_category.html:140
 msgid "Categories"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: templates/fittings/edit_category.html:22
 #: templates/fittings/edit_category.html:28
-#: templates/fittings/view_all_categories.html:65
+#: templates/fittings/view_all_categories.html:66
 #: templates/fittings/view_category.html:41
 msgid "Edit Category"
 msgstr ""
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Current Icon"
 msgstr ""
 
-#: templates/fittings/edit_fit.html:6 templates/fittings/edit_fit.html:28
+#: templates/fittings/edit_fit.html:7 templates/fittings/edit_fit.html:29
 msgid "Update Fitting"
 msgstr ""
 
@@ -248,7 +248,7 @@ msgid "Category List"
 msgstr ""
 
 #: templates/fittings/view_all_categories.html:33
-#: templates/fittings/view_all_fits.html:37
+#: templates/fittings/view_all_fits.html:38
 #: templates/fittings/view_category.html:77
 msgid "Fittings"
 msgstr ""
@@ -269,33 +269,33 @@ msgstr ""
 msgid "Groups Assigned"
 msgstr ""
 
-#: templates/fittings/view_all_categories.html:62
+#: templates/fittings/view_all_categories.html:63
 #: templates/fittings/view_category.html:30
 msgid "View Category"
 msgstr ""
 
-#: templates/fittings/view_all_categories.html:68
+#: templates/fittings/view_all_categories.html:69
 #: templates/fittings/view_category.html:44
 msgid "Delete Category"
 msgstr ""
 
-#: templates/fittings/view_all_categories.html:80
+#: templates/fittings/view_all_categories.html:81
 msgid ""
 "*Note: Fitting counts may be inaccurate as fittings marked independently of "
 "doctrines may be counted more than once."
 msgstr ""
 
-#: templates/fittings/view_all_fits.html:32
+#: templates/fittings/view_all_fits.html:33
 msgid "Fittings List"
 msgstr ""
 
-#: templates/fittings/view_all_fits.html:42
+#: templates/fittings/view_all_fits.html:43
 #: templates/fittings/view_category.html:151
 #: templates/fittings/view_doctrine.html:97
 msgid "No Fittings Found"
 msgstr ""
 
-#: templates/fittings/view_all_fits.html:47
+#: templates/fittings/view_all_fits.html:48
 #: templates/fittings/view_category.html:142
 #: templates/fittings/view_doctrine.html:102
 msgid "Ship Type"
