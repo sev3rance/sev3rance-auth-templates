@@ -51,13 +51,13 @@
 
             <div class="panel-body tp">
                 <strong>{% translate "Name" %}: </strong>
-                <br/>
+                <br>
                 <span class="label" style="background-color: {{cat.color}}">{{cat.name}}</span>
 
                 <div id="spacer" style="padding-top: 5px;"></div>
                 {% if perms.fittings.manage %}
                     <strong>{% translate "Groups" %}: </strong>
-                    <br />
+                    <br>
 
                     {% if cat.groups.all|length != 0 %}
                         {% for group in cat.groups.all %}
