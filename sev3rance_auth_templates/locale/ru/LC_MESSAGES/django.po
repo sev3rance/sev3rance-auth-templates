@@ -16,73 +16,74 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural= n==1 ? 3 : (n%10==1 && n%100!=11 ? 0 : "
-"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural= n==1 ? 3 : (n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: templates/allianceauth/top-menu.html:10 templates/fittings/base.html:44
+#: templates/allianceauth/top-menu.html:10 templates/fittings/base.html:43
 msgid "Toggle navigation"
-msgstr ""
+msgstr "Переключить навигацию"
 
 #: templates/fittings/add_doctrine.html:19
 msgid "Add Doctrine"
-msgstr ""
+msgstr "Добавить формат"
 
-#: templates/fittings/add_doctrine.html:31 templates/fittings/add_fit.html:19
+#: templates/fittings/add_doctrine.html:31 templates/fittings/add_fit.html:18
 #: templates/fittings/dashboard.html:19
-#: templates/fittings/edit_doctrine.html:29 templates/fittings/edit_fit.html:17
+#: templates/fittings/edit_doctrine.html:29 templates/fittings/edit_fit.html:16
 #: templates/fittings/view_all_categories.html:17
-#: templates/fittings/view_all_fits.html:20
+#: templates/fittings/view_all_fits.html:19
 msgid "Oh No!"
-msgstr ""
+msgstr "О нет!"
 
-#: templates/fittings/add_doctrine.html:33 templates/fittings/add_fit.html:21
+#: templates/fittings/add_doctrine.html:33 templates/fittings/add_fit.html:20
 #: templates/fittings/dashboard.html:21
-#: templates/fittings/edit_doctrine.html:31 templates/fittings/edit_fit.html:19
+#: templates/fittings/edit_doctrine.html:31 templates/fittings/edit_fit.html:18
 #: templates/fittings/view_all_categories.html:19
-#: templates/fittings/view_all_fits.html:22
+#: templates/fittings/view_all_fits.html:21
 msgid "Success!"
-msgstr ""
+msgstr "Успех!"
 
 #: templates/fittings/add_doctrine.html:45
 #: templates/fittings/edit_doctrine.html:41
 msgid "New Doctrine"
-msgstr ""
+msgstr "Новый формат"
 
 #: templates/fittings/add_doctrine.html:56
 #: templates/fittings/edit_doctrine.html:51
 msgid "Doctrine Name"
-msgstr ""
+msgstr "Название формата"
 
 #: templates/fittings/add_doctrine.html:66
 #: templates/fittings/edit_doctrine.html:59
 msgid "Doctrine Description"
-msgstr ""
+msgstr "Описание формата"
 
 #: templates/fittings/add_doctrine.html:76
 #: templates/fittings/create_category.html:74
 #: templates/fittings/edit_category.html:75
 #: templates/fittings/edit_doctrine.html:67
 msgid "Select Fittings"
-msgstr ""
+msgstr "Выбор фитов"
 
 #: templates/fittings/add_doctrine.html:92
 #: templates/fittings/edit_doctrine.html:82
 msgid "Select Doctrine Icon"
-msgstr ""
+msgstr "Выбор иконки доктрины"
 
-#: templates/fittings/add_doctrine.html:105
 #: templates/fittings/edit_doctrine.html:93
 msgid ""
 "If you do not see the ship type that you would like to use for the icon, add "
 "a fitting that uses that ship type and try again."
 msgstr ""
+"Если вы не видите тип корабля, который вы хотели использовать для иконки, "
+"добавьте фит для этого типа и попробуйте снова."
 
-#: templates/fittings/add_doctrine.html:112 templates/fittings/add_fit.html:64
+#: templates/fittings/add_doctrine.html:112 templates/fittings/add_fit.html:63
 #: templates/fittings/create_category.html:98
 #: templates/fittings/edit_category.html:99
-#: templates/fittings/edit_doctrine.html:99 templates/fittings/edit_fit.html:56
+#: templates/fittings/edit_doctrine.html:99 templates/fittings/edit_fit.html:55
 msgid "Submit"
-msgstr ""
+msgstr "Отправить"
 
 #: templates/fittings/add_doctrine.html:127
 #: templates/fittings/create_category.html:124
@@ -90,74 +91,74 @@ msgstr ""
 #: templates/fittings/create_category.html:140
 #: templates/fittings/edit_doctrine.html:113
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
-#: templates/fittings/add_fit.html:7 templates/fittings/add_fit.html:33
+#: templates/fittings/add_fit.html:6 templates/fittings/add_fit.html:32
 msgid "Add Fitting"
-msgstr ""
+msgstr "Добавление фита"
 
-#: templates/fittings/add_fit.html:44 templates/fittings/dashboard.html:48
-#: templates/fittings/edit_fit.html:39 templates/fittings/view_all_fits.html:51
+#: templates/fittings/add_fit.html:43 templates/fittings/dashboard.html:48
+#: templates/fittings/edit_fit.html:38 templates/fittings/view_all_fits.html:50
 #: templates/fittings/view_category.html:88
 #: templates/fittings/view_category.html:141
 #: templates/fittings/view_doctrine.html:64
 #: templates/fittings/view_doctrine.html:105
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
-#: templates/fittings/add_fit.html:55 templates/fittings/base.html:75
-#: templates/fittings/edit_fit.html:48 templates/fittings/view_fit.html:135
+#: templates/fittings/add_fit.html:54 templates/fittings/base.html:74
+#: templates/fittings/edit_fit.html:47 templates/fittings/view_fit.html:135
 msgid "Fitting"
-msgstr ""
+msgstr "Фит"
 
-#: templates/fittings/base.html:50
+#: templates/fittings/base.html:49
 msgid "Fittings and Doctrines"
-msgstr ""
+msgstr "Фиты и форматы"
 
-#: templates/fittings/base.html:56
+#: templates/fittings/base.html:55
 msgid "View All Doctrines"
-msgstr ""
+msgstr "Посмотреть все форматы"
 
-#: templates/fittings/base.html:60 templates/fittings/view_all_fits.html:8
+#: templates/fittings/base.html:59 templates/fittings/view_all_fits.html:7
 msgid "View All Fittings"
-msgstr ""
+msgstr "Посмотреть все фиты"
 
-#: templates/fittings/base.html:64
+#: templates/fittings/base.html:63
 #: templates/fittings/view_all_categories.html:7
 msgid "View All Categories"
-msgstr ""
+msgstr "Посмотреть все категории"
 
-#: templates/fittings/base.html:76 templates/fittings/view_doctrine.html:7
+#: templates/fittings/base.html:75 templates/fittings/view_doctrine.html:7
 msgid "Doctrine"
-msgstr ""
+msgstr "Формат"
 
-#: templates/fittings/base.html:77 templates/fittings/view_category.html:37
+#: templates/fittings/base.html:76 templates/fittings/view_category.html:37
 #: templates/fittings/view_doctrine.html:104
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #: templates/fittings/create_category.html:22
 msgid "Add Category"
-msgstr ""
+msgstr "Добавить категорию"
 
 #: templates/fittings/create_category.html:28
 msgid "New Category"
-msgstr ""
+msgstr "Новая категория"
 
 #: templates/fittings/create_category.html:40
 #: templates/fittings/edit_category.html:40
 msgid "Category Name"
-msgstr ""
+msgstr "Название категории"
 
 #: templates/fittings/create_category.html:47
 #: templates/fittings/edit_category.html:47
 msgid "Category Color"
-msgstr ""
+msgstr "Цвет категории"
 
 #: templates/fittings/create_category.html:58
 #: templates/fittings/edit_category.html:59
 msgid "Select Groups"
-msgstr ""
+msgstr "Выбор групп"
 
 #: templates/fittings/create_category.html:60
 #: templates/fittings/edit_category.html:61
@@ -166,308 +167,321 @@ msgid ""
 "category. If no groups are selected the category will be visible to all with "
 "fittings module access."
 msgstr ""
+"Только выбранные группы будут иметь доступ к фитам и форматам в этой "
+"категории. Если группы не выбраны, категория будет видна всем с доступом к "
+"модулю фиттинга."
 
 #: templates/fittings/create_category.html:86
 #: templates/fittings/edit_category.html:87
 msgid "Select Doctrines"
-msgstr ""
+msgstr "Выбор форматов"
 
 #: templates/fittings/create_category.html:122
 #: templates/fittings/create_category.html:130
 #: templates/fittings/create_category.html:138
 msgid "Select Value"
-msgstr ""
+msgstr "Выберите значение"
 
 #: templates/fittings/create_category.html:123
 #: templates/fittings/create_category.html:131
 #: templates/fittings/create_category.html:139
 msgid "No Results"
-msgstr ""
+msgstr "Нет результатов"
 
 #: templates/fittings/dashboard.html:8
 msgid "Dashboard"
-msgstr ""
+msgstr "Панель управления"
 
 #: templates/fittings/dashboard.html:30
 msgid "Doctrine List"
-msgstr ""
+msgstr "Список форматов"
 
 #: templates/fittings/dashboard.html:35
 #: templates/fittings/view_category.html:76 templates/fittings/view_fit.html:97
 msgid "Doctrines"
-msgstr ""
+msgstr "Форматы"
 
 #: templates/fittings/dashboard.html:40
 #: templates/fittings/view_category.html:98
 msgid "No Doctrines Found"
-msgstr ""
+msgstr "Форматы не найдены"
 
 #: templates/fittings/dashboard.html:46
 #: templates/fittings/view_all_categories.html:43
-#: templates/fittings/view_all_fits.html:49
+#: templates/fittings/view_all_fits.html:48
 #: templates/fittings/view_category.html:53
 #: templates/fittings/view_category.html:86
 #: templates/fittings/view_category.html:139
 #: templates/fittings/view_doctrine.html:103
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: templates/fittings/dashboard.html:47
-#: templates/fittings/view_all_fits.html:50
+#: templates/fittings/view_all_fits.html:49
 #: templates/fittings/view_category.html:87
 #: templates/fittings/view_category.html:140
 msgid "Categories"
-msgstr ""
+msgstr "Категории"
 
 #: templates/fittings/dashboard.html:49
 #: templates/fittings/view_category.html:89
 msgid "Ships"
-msgstr ""
+msgstr "Корабли"
 
 #: templates/fittings/edit_category.html:22
 #: templates/fittings/edit_category.html:28
-#: templates/fittings/view_all_categories.html:66
+#: templates/fittings/view_all_categories.html:65
 #: templates/fittings/view_category.html:41
 msgid "Edit Category"
-msgstr ""
+msgstr "Редактировать категорию"
 
 #: templates/fittings/edit_doctrine.html:19
 #: templates/fittings/view_doctrine.html:47
 msgid "Edit Doctrine"
-msgstr ""
+msgstr "Редактирование формата"
 
 #: templates/fittings/edit_doctrine.html:86
 msgid "Current Icon"
-msgstr ""
+msgstr "Текущая иконка"
 
-#: templates/fittings/edit_fit.html:7 templates/fittings/edit_fit.html:29
+#: templates/fittings/edit_fit.html:6 templates/fittings/edit_fit.html:28
 msgid "Update Fitting"
-msgstr ""
+msgstr "Обновить фиттинг"
 
 #: templates/fittings/view_all_categories.html:28
 msgid "Category List"
-msgstr ""
+msgstr "Список категорий"
 
 #: templates/fittings/view_all_categories.html:33
-#: templates/fittings/view_all_fits.html:38
+#: templates/fittings/view_all_fits.html:37
 #: templates/fittings/view_category.html:77
 msgid "Fittings"
-msgstr ""
+msgstr "Фиты"
 
 #: templates/fittings/view_all_categories.html:38
 msgid "No Categories Found"
-msgstr ""
+msgstr "Категории не найдены"
 
 #: templates/fittings/view_all_categories.html:44
 msgid "Doctrines Assigned"
-msgstr ""
+msgstr "Назначенные форматы"
 
 #: templates/fittings/view_all_categories.html:45
 msgid "Fittings Assigned"
-msgstr ""
+msgstr "Назначенные фиты"
 
 #: templates/fittings/view_all_categories.html:48
 msgid "Groups Assigned"
-msgstr ""
+msgstr "Назначенные группы"
 
-#: templates/fittings/view_all_categories.html:63
+#: templates/fittings/view_all_categories.html:62
 #: templates/fittings/view_category.html:30
 msgid "View Category"
-msgstr ""
+msgstr "Смотреть категорию"
 
-#: templates/fittings/view_all_categories.html:69
+#: templates/fittings/view_all_categories.html:68
 #: templates/fittings/view_category.html:44
 msgid "Delete Category"
-msgstr ""
+msgstr "Удалить категорию"
 
-#: templates/fittings/view_all_categories.html:81
+#: templates/fittings/view_all_categories.html:80
 msgid ""
 "*Note: Fitting counts may be inaccurate as fittings marked independently of "
 "doctrines may be counted more than once."
 msgstr ""
+"*Примечание: Количество фитов может быть неточным, т.к. независимые фиты "
+"доктрин могут учитываться больше одного раза."
 
-#: templates/fittings/view_all_fits.html:33
+#: templates/fittings/view_all_fits.html:32
 msgid "Fittings List"
-msgstr ""
+msgstr "Список фитов"
 
-#: templates/fittings/view_all_fits.html:43
+#: templates/fittings/view_all_fits.html:42
 #: templates/fittings/view_category.html:151
 #: templates/fittings/view_doctrine.html:97
 msgid "No Fittings Found"
-msgstr ""
+msgstr "Фиты не найдены"
 
-#: templates/fittings/view_all_fits.html:48
+#: templates/fittings/view_all_fits.html:47
 #: templates/fittings/view_category.html:142
 #: templates/fittings/view_doctrine.html:102
 msgid "Ship Type"
-msgstr ""
+msgstr "Тип корабля"
 
 #: templates/fittings/view_category.html:59
 msgid "Groups"
-msgstr ""
+msgstr "Группы"
 
 #: templates/fittings/view_category.html:67
 msgid "Category is public"
-msgstr ""
+msgstr "Категория публичная"
 
 #: templates/fittings/view_doctrine.html:16 templates/fittings/view_fit.html:20
 msgid "Are you sure?"
-msgstr ""
+msgstr "Вы уверены?"
 
 #: templates/fittings/view_doctrine.html:21
 msgid "Are you sure you wish to delete this doctrine?"
-msgstr ""
+msgstr "Вы уверены, что хотите удалить этот формат?"
 
 #: templates/fittings/view_doctrine.html:22 templates/fittings/view_fit.html:27
 msgid "This action is permanent."
-msgstr ""
+msgstr "Это действие необратимо."
 
 #: templates/fittings/view_doctrine.html:27 templates/fittings/view_fit.html:33
 msgid "No - Close"
-msgstr ""
+msgstr "Нет - Закрыть"
 
 #: templates/fittings/view_doctrine.html:28 templates/fittings/view_fit.html:37
 msgid "Yes - Delete"
-msgstr ""
+msgstr "Да - Удалить"
 
 #: templates/fittings/view_doctrine.html:41
 msgid "Doctrine Information"
-msgstr ""
+msgstr "Информация о формате"
 
 #: templates/fittings/view_doctrine.html:45
 msgid "Delete Doctrine"
-msgstr ""
+msgstr "Удалить формат"
 
 #: templates/fittings/view_doctrine.html:68
 #: templates/fittings/view_fit.html:112
 msgid "Created"
-msgstr ""
+msgstr "Создана"
 
 #: templates/fittings/view_doctrine.html:77
 #: templates/fittings/view_fit.html:121
 msgid "Last Updated"
-msgstr ""
+msgstr "Последнее обновление"
 
 #: templates/fittings/view_doctrine.html:92
 msgid "Doctrine Fittings"
-msgstr ""
+msgstr "Фиты доктрины"
 
 #: templates/fittings/view_fit.html:8
 msgid "Fit"
-msgstr ""
+msgstr "Фит"
 
 #: templates/fittings/view_fit.html:25
 msgid "Are you sure you wish to delete this fit?"
-msgstr ""
+msgstr "Вы уверены, что хотите удалить этот фит?"
 
 #: templates/fittings/view_fit.html:57
 msgid "EFT Formatted Fitting"
-msgstr ""
+msgstr "Фит в формате EFT"
 
 #: templates/fittings/view_fit.html:65
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: templates/fittings/view_fit.html:79
 msgid "Fit Information"
-msgstr ""
+msgstr "Информация о фите"
 
 #: templates/fittings/view_fit.html:83
 msgid "Delete Fit"
-msgstr ""
+msgstr "Удалить фит"
 
 #: templates/fittings/view_fit.html:88
 msgid "Edit/Update Fit"
-msgstr ""
+msgstr "Изменить/Обновит фит"
 
 #: templates/fittings/view_fit.html:391 templates/fittings/view_fit.html:442
 msgid "Hull"
-msgstr ""
+msgstr "Корпус"
 
 #: templates/fittings/view_fit.html:402
 msgid "Fitting Notes"
-msgstr ""
+msgstr "Примечание фита"
 
 #: templates/fittings/view_fit.html:420
 msgid "Fitting Details"
-msgstr ""
+msgstr "Детали фита"
 
 #: templates/fittings/view_fit.html:424
 msgid "Save to EVE"
-msgstr ""
+msgstr "Сохранить в EVE"
 
 #: templates/fittings/view_fit.html:428
 msgid "Copy Buy All"
-msgstr ""
+msgstr "Скопировать \"Купить все\""
 
 #: templates/fittings/view_fit.html:432
 msgid "Copy Fit (EFT)"
-msgstr ""
+msgstr "Скопировать фит (EFT)"
 
 #: templates/fittings/view_fit.html:452
 msgid "SubSystems"
-msgstr ""
+msgstr "Подсистемы"
 
 #: templates/fittings/view_fit.html:477
 msgid "High Slots"
-msgstr ""
+msgstr "High слоты"
 
 #: templates/fittings/view_fit.html:482
 msgid "No High Slot Items"
-msgstr ""
+msgstr "Нет элементов в High слотах"
 
 #: templates/fittings/view_fit.html:543
 msgid "Medium Slots"
-msgstr ""
+msgstr "Med слоты"
 
 #: templates/fittings/view_fit.html:548
 msgid "No Medium Slot Items"
-msgstr ""
+msgstr "Нет элементов в Mid слотах"
 
 #: templates/fittings/view_fit.html:609
 msgid "Low Slots"
-msgstr ""
+msgstr "Low слоты"
 
 #: templates/fittings/view_fit.html:614
 msgid "No Low Slot Items"
-msgstr ""
+msgstr "Нет элементов в Low слотах"
 
 #: templates/fittings/view_fit.html:675
 msgid "Rig Slots"
-msgstr ""
+msgstr "Rig слоты"
 
 #: templates/fittings/view_fit.html:680
 msgid "No Rig Slot Items"
-msgstr ""
+msgstr "Нет элементов в Rig слотах"
 
 #: templates/fittings/view_fit.html:707
 msgid "Service Slots"
-msgstr ""
+msgstr "Сервисные слоты"
 
 #: templates/fittings/view_fit.html:769
 msgid "Fighter Tubes"
-msgstr ""
+msgstr "Трубы файтеров"
 
 #: templates/fittings/view_fit.html:810
 msgid "Cargo Bay"
-msgstr ""
+msgstr "Грузовой отсек"
 
 #: templates/fittings/view_fit.html:823
 msgid "Drone Bay"
-msgstr ""
+msgstr "Отсек дронов"
 
 #: templates/fittings/view_fit.html:836
 msgid "Fighter Bay"
-msgstr ""
+msgstr "Отсек файтеров"
 
 #: templates/mumbletemps/base.html:4
 msgid "Mumble Temp Links"
-msgstr ""
+msgstr "Временные ссылки Mumble"
 
 #: templates/mumbletemps/base.html:7
 msgid "Mumble Temporary Links"
-msgstr ""
+msgstr "Временные ссылки Mumble"
 
 #: templates/mumbletemps/link.html:17
 msgid "Mumble Temporary Access"
+msgstr "Временный доступ Mumble"
+
+#: templates/fittings/add_doctrine.html:105
+msgid ""
+"If you do not see the ship type that you would like to use for the icon, add "
+"a fit that uses that ship type and try again."
 msgstr ""
+"Если вы не видите тип корабля, который вы хотели использовать для иконки, "
+"добавьте фит для этого типа и попробуйте снова."
