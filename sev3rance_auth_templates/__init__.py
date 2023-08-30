@@ -1,5 +1,11 @@
 """
 App init
 """
-__version__ = "1.6.0"
+
+# Standard Library
+from importlib import metadata
+
+__version__ = metadata.version("sev3rance-auth-templates")
 __title__ = "Sev3rance Alliance Auth Template Overrides"
+
+del metadata
