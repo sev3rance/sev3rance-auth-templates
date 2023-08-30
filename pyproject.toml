@@ -6,7 +6,7 @@ requires = [
 
 [project]
 name = "sev3rance-auth-templates"
-version = "1.6.0"
+version = "1.7.0"
 description = "Sev3rance Template Overrides for Alliance Auth"
 readme = "README.md"
 keywords = [
