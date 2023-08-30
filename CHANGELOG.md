@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - Moved the build process to PEP 621 / pyproject.toml
+- Minimum dependency
+  - Alliance Auth >= 3.6.1
 
 
 ## [1.6.0] - 2023-04-20
