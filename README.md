@@ -1,5 +1,7 @@
 # Alliance Auth Template Overrides used by Sev3rance Alliance
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/sev3rance/sev3rance-auth-templates/master.svg)](https://results.pre-commit.ci/latest/github/sev3rance/sev3rance-auth-templates/master)
+
 # Sev3rance Auth Templates
 
 Template Overrides for Alliance Auth
